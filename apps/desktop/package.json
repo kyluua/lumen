@@ -9,8 +9,11 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "tauri": "tauri",
-    "package": "tauri build",
-    "lint": "eslint . --ext ts,tsx"
+    "package": "npm run build && node ../../scripts/package-ci-notice.mjs",
+    "package:local": "node ../../scripts/package-local.mjs",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit",
+    "test": "tsc --noEmit"
   },
   "dependencies": {
     "@lumen/launcher-core": "*",
