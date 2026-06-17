@@ -1,0 +1,20 @@
+{
+  "name": "lumen",
+  "version": "1.0.0",
+  "description": "Lumen - A safe, polished, customizable Minecraft launcher and utility client",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=apps/desktop",
+    "build": "npm run build --workspace=apps/desktop",
+    "package": "npm run package --workspace=apps/desktop",
+    "lint": "npm run lint --workspace=apps/desktop",
+    "test": "npm run test --workspace=apps/desktop"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
