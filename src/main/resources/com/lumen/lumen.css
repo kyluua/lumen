@@ -1,0 +1,95 @@
+.root {
+    -fx-font-family: "Segoe UI", "Inter", sans-serif;
+    -fx-background-color: #080a14;
+    -fx-text-fill: #f7fbff;
+}
+
+.app-root {
+    -fx-background-color: linear-gradient(to bottom right, #080a14, #101827 70%, #061018);
+}
+
+.header {
+    -fx-background-color: rgba(10, 14, 24, 0.92);
+    -fx-border-color: rgba(255,255,255,0.08);
+    -fx-border-width: 0 0 1 0;
+}
+
+.brand-mark {
+    -fx-alignment: center;
+    -fx-min-width: 48;
+    -fx-min-height: 48;
+    -fx-background-radius: 12;
+    -fx-background-color: linear-gradient(to bottom right, #7dd3fc, #a78bfa);
+    -fx-text-fill: #061018;
+    -fx-font-size: 28;
+    -fx-font-weight: bold;
+}
+
+.label {
+    -fx-text-fill: #eef6ff;
+}
+
+.muted {
+    -fx-text-fill: #9fb0c8;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: #0d1321;
+}
+
+.tab {
+    -fx-background-color: #121b2d;
+    -fx-padding: 8 14 8 14;
+}
+
+.tab:selected {
+    -fx-background-color: #1d2a42;
+}
+
+.tab .tab-label {
+    -fx-text-fill: #dce9fb;
+}
+
+.card {
+    -fx-background-color: rgba(17, 25, 40, 0.92);
+    -fx-border-color: rgba(255,255,255,0.10);
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 18;
+}
+
+.card-title {
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-background-radius: 6;
+    -fx-background-color: #1e293b;
+    -fx-text-fill: #eef6ff;
+    -fx-padding: 8 12 8 12;
+}
+
+.button.primary {
+    -fx-background-color: linear-gradient(to right, #7dd3fc, #a78bfa);
+    -fx-text-fill: #061018;
+    -fx-font-weight: bold;
+}
+
+.text-area.terminal {
+    -fx-control-inner-background: #050812;
+    -fx-font-family: "Cascadia Mono", "Consolas", monospace;
+    -fx-text-fill: #d8f3ff;
+}
+
+.list-view, .table-view, .combo-box, .text-field {
+    -fx-background-color: #111827;
+    -fx-control-inner-background: #111827;
+    -fx-text-fill: #eef6ff;
+}
+
+.status-bar {
+    -fx-background-color: #0b1220;
+    -fx-border-color: rgba(255,255,255,0.08);
+    -fx-border-width: 1 0 0 0;
+}
